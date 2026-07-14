@@ -1,4 +1,4 @@
-# Sistema de Registro de Operações na Bolsa - V2
+# Sistema de Registro de Operações na Bolsa
 
 Projeto desenvolvido em **Python** utilizando o framework **Django**, representando a evolução de um sistema de registro de operações na bolsa criado inicialmente para o terminal. Nesta versão, a aplicação ganhou uma interface web e implementa um CRUD completo para cadastro, listagem, edição e exclusão de operações.
 
