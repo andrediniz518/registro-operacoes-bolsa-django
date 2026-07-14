@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> {{ titulo }} </title>
+    </head>
+    <body>
+        <h1> {{ titulo }} </h1>
+
+        <p> {{ mensagem }} </p>
+
+        <a href="{% url 'nova_operacao' %}">Nova operação</a>
+
+        <h2> Operações cadastradas </h2>
+
+        <ul>
+            {% for operacao in operacoes %}
+                <li>
+                    {{ operacao.ticker }} -
+                    {{ operacao.tipo }} -
+                    {{ operacao.quantidade }} ações -
+                    R$ {{ operacao.preco }}
+
+                    <a href="{% url 'editar_operacao' operacao.id %}"> Editar </a>
+                    
+                    <a href="{% url 'excluir_operacao' operacao.id %}"> Excluir </a>
+
+                </li>
+            {% empty %}
+                <li> Nenhuma operação cadastrada. </li>
+            {% endfor %}
+        </ul>
+
+
+    </body>
+</html>
