@@ -111,6 +111,22 @@ http://127.0.0.1:8000/
 
 Este projeto foi desenvolvido como prática de desenvolvimento web com Django, aplicando conceitos de banco de dados, ORM, formulários, rotas e operações CRUD.
 
+
+# Demonstração
+
+## LISTAGEM DE AÇÕES CADASTRADAS
+<img width="585" height="321" alt="LISTAGEM-IMG-1" src="https://github.com/user-attachments/assets/2ee75b14-ed60-4f9e-bdf8-f154f31692a5" />
+
+## REALIZAR UM NOVO REGISTRO DE AÇÕES
+<img width="441" height="317" alt="CADASTRO-IMG-2" src="https://github.com/user-attachments/assets/6654cfc9-80e1-4f8b-ab63-9ce01d44da97" />
+
+## EDITAR UM REGISTRO EXISTENTE
+<img width="452" height="348" alt="EDITAR-IMG-3" src="https://github.com/user-attachments/assets/93a96779-5521-40d3-b38a-de30543c5f52" />
+
+## EXCLUIR UMA AÇÃO REGISTRADA
+<img width="472" height="240" alt="EXCLUIR-IMG-4" src="https://github.com/user-attachments/assets/b1c1a93e-5169-431b-a6f7-6c1a6632fd5a" />
+
+
 ## Autor
 
 **André Diniz**
